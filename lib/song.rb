@@ -10,6 +10,8 @@ class Song
   
   def artist_name
     return self.artist.name unless self.artist == nil
+    # or 
+    # artist.name if artist
   end
   
   def self.all

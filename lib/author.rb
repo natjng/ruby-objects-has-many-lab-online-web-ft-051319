@@ -23,5 +23,11 @@ class Author
   
   def self.post_count
     @@post_count
+    # or Post.all.count
   end
+  
+  # or to return all posts by author
+  # def posts
+  #   Post.all.select {|post| post.author == self}
+  # end
 end
